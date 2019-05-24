@@ -22,6 +22,8 @@ npm config set registry https://registry.npmjs.org
 # 切换为淘宝镜像
 npm config set registry https://registry.npm.taobao.org
 
+# 修改config里面的multi.conf.js与proxy.conf.js，然后才是执行下面的命令执行packjson的生成
+
 # 生成模块命令脚本
 node build/script
 
