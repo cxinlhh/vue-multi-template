@@ -4,7 +4,7 @@
   "description": "A Vue.js project",
   "private": true,
   "scripts": {
-    "build": "npm install && npm run build:project1 && npm run build:project2 && npm run build:project3 && npm run build:project4",
+    "build": "npm install && npm run build:project1 && npm run build:project2 && npm run build:project3 && npm run build:project4 && npm run build:project5",
     "build:project1": "node build/build.js name=project1",
     "build:project1:zip": "node build/build.js name=project1 zip",
     "build:project2": "node build/build.js name=project2",
@@ -13,16 +13,20 @@
     "build:project3:zip": "node build/build.js name=project3 zip",
     "build:project4": "node build/build.js name=project4",
     "build:project4:zip": "node build/build.js name=project4 zip",
+    "build:project5": "node build/build.js name=project5",
+    "build:project5:zip": "node build/build.js name=project5 zip",
     "clear": "node build/clear.js",
     "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
     "dev:project1": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
     "dev:project2": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
     "dev:project3": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
     "dev:project4": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
+    "dev:project5": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
     "start:project1": "node build/node-server.js name=project1",
     "start:project2": "node build/node-server.js name=project2",
     "start:project3": "node build/node-server.js name=project3",
-    "start:project4": "node build/node-server.js name=project4"
+    "start:project4": "node build/node-server.js name=project4",
+    "start:project5": "node build/node-server.js name=project5"
   },
   "dependencies": {
     "vue": "^2.6.10",

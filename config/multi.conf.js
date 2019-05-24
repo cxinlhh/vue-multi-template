@@ -102,7 +102,12 @@ var importModules = [
       '/api/': getProxyConfig(proxyConf.PROXY_DOMAIN_PROJECT4)
     },
     publics: ['myjs'] // 引入额外的静态资源
-  })
+  }),
+  new MultiModule('project5', {
+    proxyTable: {
+      '/api/': getProxyConfig(proxyConf.PROXY_DOMAIN_PROJECT5)
+    },
+  }),
 ]
 var lifecycleEvents = String(process.env.npm_lifecycle_event).split(':')
 var moduleName = getParams('name')[1] || lifecycleEvents[1]
