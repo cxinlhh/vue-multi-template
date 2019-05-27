@@ -6,7 +6,7 @@ const PROXY_DOMAIN_PROJECT3 = 'http://127.0.0.1:8090'
 
 const PROXY_DOMAIN_PROJECT4 = 'http://127.0.0.1:8090'
 
-const PROXY_DOMAIN_PROJECT5 = 'http://127.0.0.1:8090'
+const PROXY_DOMAIN_PROJECT5 ='http://localhost:3000'    //http://localhost:3000是后端提供的服务
 
 module.exports = {
   PROXY_DOMAIN_PROJECT1,

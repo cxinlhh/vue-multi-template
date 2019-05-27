@@ -105,7 +105,7 @@ var importModules = [
   }),
   new MultiModule('project5', {
     proxyTable: {
-      '/api/': getProxyConfig(proxyConf.PROXY_DOMAIN_PROJECT5)
+      '/': getProxyConfig(proxyConf.PROXY_DOMAIN_PROJECT5)    //代理，开发模式下直接写接口就行，前提是要先开启后端服务
     },
   }),
 ]

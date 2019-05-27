@@ -29,6 +29,8 @@
     "start:project5": "node build/node-server.js name=project5"
   },
   "dependencies": {
+    "axios": "^0.18.0",
+    "element-ui": "^2.8.2",
     "vue": "^2.6.10",
     "vue-router": "^3.0.1",
     "vuex": "^3.0.1",
